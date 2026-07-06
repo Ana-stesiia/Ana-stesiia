@@ -1,6 +1,8 @@
 # Hi, I'm Ana 👋
 
-**Finance professional turned Python builder** — I write code to answer market questions: how liquid is this stock, how well does this ETF track its index, would this strategy have actually made money?
+**Exploring what Python can do for finance** 
+
+From automating heavy calculations to uncovering patterns in market data, my projects show how code turns financial questions into better answers.
 
 - 🎓 MSc in Finance (Financial Markets Track), ESSEC Business School
 - 📊 Ex-Cash Equities Analyst @ Euronext — market microstructure, execution quality & liquidity analytics
@@ -9,15 +11,12 @@
 
 ## 🛠️ What I build
 
-My projects sit at the intersection of **market microstructure, quantitative finance, and data engineering** — turning the questions I worked on at the exchange into open, reproducible code.
-
+My projects sit at the intersection of **market microstructure, quantitative finance, and data engineering**
 | Project | What it does | Stack |
 |---|---|---|
-| _(coming soon)_ Order Book & Liquidity Analyzer | Reconstructs limit order book dynamics and computes liquidity metrics (spreads, depth, imbalance) | Python, pandas |
-| _(coming soon)_ ETF Tracking-Error Monitor | Measures how closely ETFs replicate their benchmarks over time | Python, pandas, matplotlib |
-| _(coming soon)_ Backtesting Engine | Lightweight framework for testing systematic equity strategies | Python, NumPy |
-
-Also in my toolbox from academic work: a **Kou jump-diffusion model** implementation for option pricing and an **implied volatility ML pipeline**.
+| Kou Jump-Diffusion Option Pricing | Implements the Kou (2002) double-exponential jump-diffusion model for option pricing, capturing fat tails and volatility smiles that Black-Scholes misses | Python, NumPy, SciPy |
+| Implied Volatility ML Pipeline | Machine-learning pipeline for predicting implied volatility from option market data | Python, pandas, scikit-learn |
+| Data Structures & Algorithms | Ongoing collection of algorithmic problems and implementations — OOP, hash tables, graphs, and efficient data processing | Python |
 
 ## ⚙️ Tech stack
 
@@ -25,8 +24,8 @@ Also in my toolbox from academic work: a **Kou jump-diffusion model** implementa
 
 ## 📫 Get in touch
 
-- LinkedIn: [your-linkedin-url]
-- Email: [your-email]
+- LinkedIn: https://www.linkedin.com/in/ana-podbolotova/
+- Email: ana.podbolotova@gmail.com
 
 ---
 *Fluent in English, French & Russian
