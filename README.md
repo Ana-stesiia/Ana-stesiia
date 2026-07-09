@@ -17,10 +17,11 @@ My projects show how **Python sharpens financial analysis** — pricing models, 
 |---|---|---|
 | [Kou Jump-Diffusion Option Pricing](https://github.com/Ana-stesiia/kou-jump-diffusion-pricing) | Closed-form and Monte Carlo pricing under the Kou (2002) double-exponential jump-diffusion model — capturing the fat tails and volatility smiles Black-Scholes misses — with simulation validated against theoretical moments and calibration benchmarked on live option quotes | Python, NumPy, SciPy |
 | [Implied Volatility ML Pipeline](https://github.com/Ana-stesiia/implied-volatility-ml) | End-to-end pipeline on 4 years of S&P 500 options: vectorized Newton-Raphson IV inversion validated against OptionMetrics, and neural networks benchmarked against a linear baseline under a strict chronological split | Python, pandas, scikit-learn |
-| [Replicating the VIX from Raw Option Quotes](https://github.com/Ana-stesiia/vix-replication) | Rebuilds a VIX-style 30-day model-free implied volatility index from raw S&P 500 option quotes, using the risk-neutral moment methodology of Bakshi, Kapadia & Madan (2003) — then compares the result against the published CBOE VIX | Python, pandas, scikit-learn |
+| [VIX Replication](https://github.com/Ana-stesiia/vix-replication) | Rebuilds a 30-day model-free implied volatility index from raw S&P 500 option quotes (Bakshi-Kapadia-Madan risk-neutral moments, CBOE-style total-variance interpolation) and tracks the published VIX through the 2016 selloff | Python, NumPy, SciPy |
+| [GARCH-DCC Cross-Asset Correlations](https://github.com/Ana-stesiia/garch-dcc-correlations) | GARCH(1,1) and DCC(1,1) estimation implemented from scratch (NumPy/SciPy QMLE, validated by a parameter-recovery test suite) to study time-varying correlations between the S&P 500, crude oil, and gold | Python, NumPy, SciPy |
 | Data Structures & Algorithms | Ongoing collection of algorithmic problems and implementations — OOP, hash tables, graphs, and efficient data processing | Python |
  
-**Next up:** a VIX index replication (model-free implied variance from the option cross-section) and a GARCH-DCC study of dynamic cross-asset correlations. Further out: order-book liquidity analytics and a lightweight backtesting engine.
+**On the roadmap:** order-book liquidity analytics and a lightweight backtesting engine.
 
 ## ⚙️ Tech stack
 
