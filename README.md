@@ -10,13 +10,16 @@ From automating heavy calculations to uncovering patterns in market data, my pro
 - 📍 Paris, France
 
 ## 🛠️ What I build
-
-My projects sit at the intersection of **market microstructure, quantitative finance, and data engineering**
+ 
+My projects show how **Python sharpens financial analysis** — pricing models, volatility modeling, and honest, tested evaluation of what actually works out-of-sample.
+ 
 | Project | What it does | Stack |
 |---|---|---|
-| Kou Jump-Diffusion Option Pricing | Implements the Kou (2002) double-exponential jump-diffusion model for option pricing, capturing fat tails and volatility smiles that Black-Scholes misses | Python, NumPy, SciPy |
-| Implied Volatility ML Pipeline | Machine-learning pipeline for predicting implied volatility from option market data | Python, pandas, scikit-learn |
+| [Kou Jump-Diffusion Option Pricing](https://github.com/Ana-stesiia/kou-jump-diffusion-pricing) | Closed-form and Monte Carlo pricing under the Kou (2002) double-exponential jump-diffusion model — capturing the fat tails and volatility smiles Black-Scholes misses — with simulation validated against theoretical moments and calibration benchmarked on live option quotes | Python, NumPy, SciPy |
+| [Implied Volatility ML Pipeline](https://github.com/Ana-stesiia/implied-volatility-ml) | End-to-end pipeline on 4 years of S&P 500 options: vectorized Newton-Raphson IV inversion validated against OptionMetrics, and neural networks benchmarked against a linear baseline under a strict chronological split | Python, pandas, scikit-learn |
 | Data Structures & Algorithms | Ongoing collection of algorithmic problems and implementations — OOP, hash tables, graphs, and efficient data processing | Python |
+ 
+**Next up:** a VIX index replication (model-free implied variance from the option cross-section) and a GARCH-DCC study of dynamic cross-asset correlations. Further out: order-book liquidity analytics and a lightweight backtesting engine.
 
 ## ⚙️ Tech stack
 
